@@ -1,0 +1,81 @@
+
+.ui.segment{
+    background: #FFFFF0 !important;
+    border-color: #e5dfa1!important;
+}
+
+.ui.button{
+    background-image: linear-gradient(90deg,#f84e55,#2b33d4)!important;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    color: #2b33d4!important;
+    display: block;
+    letter-spacing: 1px;
+    margin: 0;
+    padding: 2px;
+    text-decoration: none;
+    width: auto;
+    z-index: 2;
+    border-radius: 0!important;
+}
+
+.ui.button span{ 
+    align-items: center;
+    background: #fff!important;
+    padding: 12px;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    height: 100%;
+    -webkit-transition: background .5s ease;
+    -o-transition: background .5s ease;
+    transition: background .5s ease;
+    width: 100%;
+  }
+
+.loginheader{
+    background: white;
+    height: 80px;
+    width: 100%;
+    z-index: 1;
+    box-shadow: 0 1px 2px 0 rgba(34,36,38,.15);
+    padding-top: 16px;
+    display: flex;
+}
+
+
+.ui.form .field>label {
+    display: block;
+    margin: 0 0 .28571429rem 0;
+    color: rgba(0,0,0,.87);
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: none;
+}
+
+input{
+        font-family: Lato,'Helvetica Neue',Arial,Helvetica,sans-serif;
+    margin: 0;
+    outline: 0;
+    -webkit-appearance: none;
+    tap-highlight-color: rgba(255,255,255,0);
+    line-height: 1.21428571em;
+    padding: .67857143em 1em;
+    font-size: 1em;
+    background: #fff;
+    border: 1px solid rgba(34,36,38,.15);
+    color: rgba(0,0,0,.87);
+    border-radius: .28571429rem;
+    -webkit-box-shadow: 0 0 0 0 transparent inset;
+    box-shadow: 0 0 0 0 transparent inset;
+    -webkit-transition: color .1s ease,border-color .1s ease;
+    transition: color .1s ease,border-color .1s ease;
+    width: 100%;
+}
+
+
+.ui.fluid.search.selection.dropdown{
+    box-shadow: 0 0 0 100px ivory inset!important;
+    border-color: #e5dfa1!important;
+}
